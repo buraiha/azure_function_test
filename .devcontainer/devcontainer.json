@@ -6,6 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {},
+		// nodeは18系でないとAzureFunctionでは動作しなさそうなので18で固定。
 		"ghcr.io/devcontainers-contrib/features/node-asdf:0": {
 			"version": "18.18.2"
 		},
